@@ -1,0 +1,55 @@
+/*****
+  Base Stylesheet for Matt Curtin Portfolio Site
+*****/
+
+body {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+  color: #4f4f4f;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a {
+  color: #4b2d87;
+}
+
+a:hover,
+a:focus {
+  color: #2f1d56;
+  text-decoration: underline;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 5px solid #ed6d23;
+  width: 100%;
+}
+
+.header-container {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo {
+  height: 150px;
+  width: 100px;
+}
+
+.footer {
+  background: #fff;
+  border-top: 5px solid #ed6d23;
+}
+
+.footer-container {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer-container p {
+  color: #4f4f4f;
+  font-size: 12px;
+  font-weight: 400;
+}
