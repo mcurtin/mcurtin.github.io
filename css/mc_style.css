@@ -117,10 +117,25 @@ a:focus {
   background-size: cover;
 }
 
+.is-open .menu-icon {
+  background: url('../images/menu_active.svg') no-repeat left top;
+  background-size: cover;
+}
+
+.is-open .social-icon {
+  background: url('../images/social_active.svg') no-repeat left top;
+  background-size: cover;
+}
+
 .navbar-toggle {
+  border-radius: 0;
   display: block;
   float: left;
   margin: 0;
+}
+
+.navbar-toggle.is-open {
+  background: #f6f0f7;
 }
 
 .social-toggle {
@@ -130,8 +145,13 @@ a:focus {
 
 .menu-text {
   color: #4f4f4f;
+  font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.is-open .menu-text {
+  color: #692c90;
 }
 
 .main-navigation-wrapper {
