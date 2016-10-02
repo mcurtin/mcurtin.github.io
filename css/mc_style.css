@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow: hidden;
 }
 
 p {
@@ -21,6 +22,41 @@ a:focus {
   color: #2f1d56;
   text-decoration: underline;
 }
+
+.btn {
+  background: #4b2d87;
+  border: 0;
+  box-shadow: none;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 25px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #2f1d56;
+  outline: none;
+}
+
+.btn-primary {
+  background: #ed6d23;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ef560a;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  background: #ef560a;
+  box-shadow: none;
+}
+
 
 .header {
   background: #fff;
@@ -191,6 +227,29 @@ a:focus {
   color: #5a267b;
 }
 
+.hero-wrapper {
+  background: #4b2d87;
+  color: #fff;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.hero-wrapper h1 {
+  color: #fff;
+}
+
+.hero-wrapper p {
+  color: #fff;
+}
+
+.hero-wrapper a {
+  color: #d5adee;
+}
+
+.hero-wrapper .btn {
+  margin-top: 20px;
+}
+
 .footer {
   background: #fff;
   border-top: 5px solid #ed6d23;
@@ -210,6 +269,12 @@ a:focus {
 /** Tablet Media Queries **/
 
 @media (min-width: 768px) {
+
+  .btn {
+    font-size: 20px;
+    padding: 20px 35px;
+  }
+
   .navbar-nav {
     text-align: center;
   }
@@ -230,5 +295,20 @@ a:focus {
 
   .menu-icon {
     height: 25px;
+  }
+
+  .hero-wrapper {
+    padding: 65px 15px;
+  }
+
+  .hero-wrapper h1 {
+    font-size: 60px;
+    margin-bottom: 18px;
+  }
+
+  .hero-wrapper p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 28px;
   }
 }
