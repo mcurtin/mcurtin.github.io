@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow: hidden;
 }
 
 p {
@@ -250,6 +249,140 @@ a:focus {
   margin-top: 20px;
 }
 
+.hero-wrapper .resume-link {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.resume-link:before {
+  background: url('../images/pdf_download_white.svg') no-repeat left top;
+  background-size: cover;
+  content: '';
+  display: inline-block;
+  height: 40px;
+  margin-right: 10px;
+  position: relative;
+  top: -5px;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.content-section {
+  padding: 25px 0;
+}
+
+.main-content-wrapper h2 {
+  color: #4b2d87;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.main-content-wrapper p {
+  color: #4f4f4f;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main-content-wrapper .about-container h2 {
+  color: #ec6d24;
+}
+
+.about-container {
+  background: #fce4d7;
+}
+
+.bio-photo {
+  background: #f9fafc;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.bio-photo img {
+  left: -20px;
+  position: relative;
+  top: -10px;
+}
+
+.skills-container {
+  background: #f6f0f7;
+}
+
+.skills-container h4 {
+  margin: 15px 0 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills-container img {
+  display: block;
+  height: auto;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  width: 135px;
+}
+
+.skills-container .label {
+  bottom: -8px;
+  color: #222;
+  font-size: 12px;
+  font-weight: 300;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.skills-container ul {
+  font-size: 18px;
+  list-style: none;
+}
+
+.skills-container li {
+  background: url('../images/bullet_purple.svg') no-repeat left center;
+  background-size: 12px 12px;
+  margin-bottom: 15px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.platforms,
+.key-skills {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.platforms .row,
+.key-skills .row {
+  display: flex;
+}
+
+.platforms:after,
+.key-skills:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.platforms .col,
+.key-skills .col {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.html5,
+.sass {
+  margin-top: 15px;
+}
+
 .footer {
   background: #fff;
   border-top: 5px solid #ed6d23;
@@ -310,5 +443,23 @@ a:focus {
     font-size: 20px;
     line-height: 30px;
     padding: 0 28px;
+  }
+
+  .hero-wrapper .resume-link {
+    margin-top: 45px;
+  }
+
+  .content-section {
+    padding: 50px 0;
+  }
+
+  .main-content-wrapper h2 {
+    font-size: 42px;
+  }
+
+  .platforms,
+  .key-skills {
+    margin-bottom: 45px;
+    margin-top: 25px;
   }
 }
