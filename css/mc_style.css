@@ -23,6 +23,41 @@ a:focus {
   text-decoration: underline;
 }
 
+.btn {
+  background: #4b2d87;
+  border: 0;
+  box-shadow: none;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 25px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #2f1d56;
+  outline: none;
+}
+
+.btn-primary {
+  background: #ed6d23;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ef560a;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  background: #ef560a;
+  box-shadow: none;
+}
+
+
 .header {
   background: #fff;
   border-bottom: 5px solid #ed6d23;
