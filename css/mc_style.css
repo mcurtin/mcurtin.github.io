@@ -33,9 +33,41 @@ a:focus {
   text-align: center;
 }
 
-.logo {
-  height: 150px;
+.logo a,
+.logo a:hover,
+.logo a:focus {
+  text-decoration: none;
+}
+
+.logo .icon {
+  display: inline-block;
+  height: 118px;
+  margin-right: 10px;
+  vertical-align: middle;
   width: 100px;
+}
+
+.logo .logo-text {
+  display: inline-block;
+  margin-top: 5px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.logo .name,
+.logo .tagline {
+  display: block;
+}
+
+.logo .name {
+  color: #4b2d87;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.logo .tagline {
+  color: #ec6d24;
+  font-size: 18px;
 }
 
 .footer {
