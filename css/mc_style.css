@@ -59,6 +59,16 @@ a:focus {
   box-shadow: none;
 }
 
+.btn-secondary {
+  background: #000;
+  color: #fff;
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover {
+  color: #222;
+}
+
 h1,
 h2,
 h3,
