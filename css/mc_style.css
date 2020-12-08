@@ -24,7 +24,7 @@ a:focus {
 }
 
 .btn {
-  background: #0B43AA;
+  background: #52796f;
   border: 0 !important;
   box-shadow: none;
   color: #ffffff !important;
@@ -37,16 +37,16 @@ a:focus {
 
 .btn:hover,
 .btn:focus {
-  background: #0D52BF;
+  background: #84a98c;
   outline: none;
 }
 
 .btn-primary {
-  background: #0B43AA;
+  background: #52796f;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background: #0D52BF;
+  background: #84a98c;
 }
 
 .btn-primary.active.focus,
@@ -55,7 +55,7 @@ a:focus {
 .btn-primary:active.focus,
 .btn-primary:active:focus,
 .btn-primary:active:hover {
-  background: #0D52BF;
+  background: #84a98c;
   box-shadow: none;
 }
 
@@ -160,7 +160,7 @@ h4 {
   padding-top: 2rem;
   overflow-y: auto;
   visibility: hidden;
-  background-color: #121212;
+  background-color: #2f3e46;
   transition-timing-function: ease-in-out;
   transition-duration: .3s;
   transition-property: right, visibility;
@@ -198,7 +198,7 @@ h4 {
 }
 
 .navbar-nav a.active {
-  color: #C6DBFF;
+  color: #cad2c5;
 }
 
 .nav-scroller .nav {
@@ -231,9 +231,7 @@ h4 {
 }
 
 .hero-wrapper {
-  background: url('../images/default-hero-bk.svg') center #121212;
-  background-attachment: fixed;
-  background-size: cover;
+  background: linear-gradient(45deg, #84a98c 0%,#52796f 100%);
   color: #fff;
   padding: 20px 15px;
   position: relative;
