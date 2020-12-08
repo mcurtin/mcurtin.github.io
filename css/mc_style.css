@@ -160,7 +160,7 @@ h4 {
   padding-top: 2rem;
   overflow-y: auto;
   visibility: hidden;
-  background-color: #2f3e46;
+  background-color: #222;
   transition-timing-function: ease-in-out;
   transition-duration: .3s;
   transition-property: right, visibility;
