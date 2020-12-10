@@ -1,6 +1,6 @@
 {
-    "name": "Matt Curtin",
-    "short_name": "Matt Curtin",
+    "name": "Matt Curtin Portfolio",
+    "short_name": "Matt Curtin Portfolio",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#101010",
-    "background_color": "#101010",
+    "theme_color": "#82a98c",
+    "background_color": "#82a98c",
     "display": "standalone"
 }
