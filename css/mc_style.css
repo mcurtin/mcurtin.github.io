@@ -23,6 +23,10 @@ a:focus {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+}
+
 .btn {
   background: #52796f;
   border: 0 !important;
@@ -307,7 +311,6 @@ h4 {
 
 .card {
   border-radius: 0;
-  padding: 2rem;
 }
 
 .main-content-wrapper {
