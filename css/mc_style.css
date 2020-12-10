@@ -9,8 +9,8 @@ body {
 
 p {
   color: #4f4f4f;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 a {
@@ -247,7 +247,7 @@ h4 {
 .hero-wrapper {
   background: linear-gradient(45deg, #84a98c 0%,#52796f 100%);
   color: #fff;
-  padding: 20px 15px;
+  padding: 20px 0;
   position: relative;
   text-align: center;
 }
@@ -314,7 +314,7 @@ h4 {
   margin-bottom: -9px;
   margin-right: 10px;
   position: relative;
-  top: -2px;
+  top: -6px;
   vertical-align: middle;
   width: 35px;
 }
@@ -380,6 +380,11 @@ h4 {
 
   body {
     padding-top: 111px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .logo .icon {
