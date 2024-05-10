@@ -27,6 +27,16 @@ a:focus {
   text-decoration: underline;
 }
 
+.link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.link:hover,
+.link:focus {
+  color: #f88cd6;
+}
+
 img {
   max-width: 100%;
 }
@@ -223,6 +233,19 @@ h4 {
   position: relative;
 }
 
+.hero-wrapper::after {
+  background: url('../images/hero-lines.svg') no-repeat left top;
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 100%;
+  right: -45%;
+  opacity: .25;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .hero-wrapper .container {
   position: relative;
   z-index: 100;
@@ -259,6 +282,15 @@ h4 {
 }
 
 .main-content-wrapper p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+.main-content-wrapper ul {
   font-size: 16px;
   line-height: 28px;
 }
@@ -302,14 +334,15 @@ h4 {
 
 .figure-caption {
   color: #fff;
-  font-size: .7rem;
+  font-size: .9rem;
 }
 
 .footer a {
   color: #fff;
 }
 
-.footer a:hover {
+.footer a:hover, 
+.footer a:focus {
   color: #f88cd6;
 }
 
@@ -337,6 +370,11 @@ h4 {
     line-height: 32px;
   }
   
+  .main-content-wrapper ul {
+    font-size: 20px;
+    line-height: 32px;
+}
+  
   .main-content-wrapper .figure-caption {
     font-size: 14px;
     line-height: 18px;
@@ -359,6 +397,10 @@ h4 {
 
   .hero-wrapper {
     padding: 65px 0;
+  }
+  
+  .hero-wrapper::after {
+    opacity: .35;
   }
 
   .hero-wrapper h1 {
