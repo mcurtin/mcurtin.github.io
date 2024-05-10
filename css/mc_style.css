@@ -229,6 +229,7 @@ h4 {
 .hero-wrapper {
   background-image: linear-gradient(to left top, #910a67, #870c60, #7d0d58, #740e51, #6a0e4a, #640c48, #5d0b47, #570945, #520648, #4c054c, #45064f, #3c0753);
   color: #fff;
+  overflow: hidden;
   padding: 25px 0;
   position: relative;
 }
